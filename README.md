@@ -48,6 +48,9 @@ For use with **ROS1** bags, please proceed with the instructions below.
     --start Optional start time in seconds.
     --end   Optional end time in seconds.
 
+## **Example Usage**:
+      ./rosbag2video_leicheng.py --fps 30 -o cali_cam.mp4 cali_cam_2022-08-21-19-41-37.bag
+
 ## **Example Output**:
 
     ./rosbag2video.py camera_and_state.bag
